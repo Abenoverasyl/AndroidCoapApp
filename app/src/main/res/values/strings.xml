@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">COAP new</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_language">Язык</string>
+    <string name="action_about">О программе</string>
+    <string name="communicate_item">Связыватся</string>
+    <string name="share_item">Пригласить знакомых</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="Main_news">Главная</string>
+    <string name="fines">Штрафы</string>
+    <string name="coap_name">КоАП РК</string>
+    <string name="PDD_RK_name">ПДД РК</string>
+    <string name="invite">Пригласить</string>
+    <string name="Logout">Выйти</string>
+    <string name="my_cars">Мой автомобили</string>
+    <string name="settings_name">Настройки</string>
+
+    <string-array name="cities">
+        <item>Выбрать город</item>
+        <item>Алматы</item>
+        <item>Астана</item>
+        <item>Актау</item>
+        <item>Актобе</item>
+        <item>Атырау</item>
+        <item>Караганда</item>
+        <item>Костанай</item>
+        <item>Кызылорда</item>
+        <item>Павлодар</item>
+        <item>Петропавловск</item>
+        <item>Уральск</item>
+        <item>Тараз</item>
+        <item>Усть-Каменогорск</item>
+    </string-array>
+</resources>

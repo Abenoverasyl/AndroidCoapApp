@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiterbl">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="10dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Title"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/dark"
+            android:id="@+id/tvTitleNews"
+            android:textAlignment="center"
+            android:textStyle="normal|bold"
+            android:fontFamily="sans-serif-smallcaps" />
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+        </android.support.v4.view.ViewPager>
+
+        <TextView
+            android:text="Content"
+            android:textSize="14dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/dark"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:id="@+id/tvContentNews"
+            android:fontFamily="sans-serif-smallcaps" />
+
+
+        <Button
+            android:text="еще..."
+            android:background="@color/white"
+            android:textColor="@color/colorHint"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:gravity="left"
+            android:id="@+id/btnViewMore"
+            android:layout_marginLeft="10dp"
+            android:textSize="14sp"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold" />
+
+        <TextView
+            android:text="Date"
+            android:layout_width="match_parent"
+            android:layout_gravity="right"
+            android:gravity="right"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvDateNews"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"
+            android:fontFamily="serif-monospace" />
+    </LinearLayout>
+
+</LinearLayout>

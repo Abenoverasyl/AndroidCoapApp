@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coap_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erasyl.coap.CoapTextActivity">
+
+    <ListView
+        android:id="@+id/lvCoapDetail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_centerHorizontal="true"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="5dp"
+        android:paddingRight="30dp"
+        android:gravity="center_vertical"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appBarColor"
+        android:id="@+id/header"
+        android:padding="5dp">
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnBackCoAP"
+            android:background="@drawable/arrowbackwhite" />
+
+        <TextView
+            android:text="КоАП"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/tvTitle"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</RelativeLayout>

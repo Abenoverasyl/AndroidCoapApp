@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erasyl.coap.LoginActivity">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/appBarColor"
+        android:padding="5dp"
+        android:id="@+id/header"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:background="@drawable/arrowbackwhite"
+            android:layout_width="30dp"
+            android:layout_height="35dp" />
+
+        <TextView
+            android:text=""
+            android:padding="5dp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/registrationWord"
+            android:layout_weight="1"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="32dp"
+            android:id="@+id/textView3" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvNotifications"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/header" />
+
+</RelativeLayout>

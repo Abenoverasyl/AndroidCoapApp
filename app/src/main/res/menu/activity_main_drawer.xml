@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@android:drawable/stat_notify_chat"
+            android:title="@string/Main_news" />
+        <item
+            android:id="@+id/nav_mycars"
+            android:icon="@android:drawable/star_big_off"
+            android:title="@string/my_cars" />
+        <item
+            android:id="@+id/nav_koap"
+            android:icon="@android:drawable/ic_input_get"
+            android:title="@string/coap_name" />
+        <item
+            android:id="@+id/nav_pddrk"
+            android:icon="@drawable/shoppingretail"
+            android:title="@string/PDD_RK_name" />
+    </group>
+
+    <item android:title="Другие">
+        <menu>
+            <item
+                android:id="@+id/nav_invite"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Пригласить" />
+        </menu>
+    </item>
+
+</menu>

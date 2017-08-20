@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coap_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erasyl.coap.CoapTextActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingRight="30dp"
+        android:paddingLeft="5dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appBarColor"
+        android:id="@+id/header"
+        android:gravity="center_vertical">
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnBackFines"
+            android:background="@drawable/arrowbackwhite" />
+
+        <TextView
+            android:text="Информация о штрафе"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:textSize="22sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_above="@+id/btnShare"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="Выполняется.."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:id="@+id/tvFine"
+             />
+    </ScrollView>
+
+    <Button
+        android:background="@color/btnColor"
+        android:textColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnShare"
+        android:text="поделиться приложением"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

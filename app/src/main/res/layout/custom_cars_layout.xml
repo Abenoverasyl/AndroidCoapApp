@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiterbl"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_height="wrap_content">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginLeft="10dp"
+            android:layout_width="70dp"
+            app:srcCompat="@drawable/caricon"
+            android:id="@+id/ivCar"
+            android:layout_gravity="center"
+            android:layout_height="70dp" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:paddingLeft="20dp"
+            android:layout_marginLeft="2dp"
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:text="id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/tvTmpCarId"
+                android:textSize="1sp" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Дата: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:textColor="@color/dark"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:text="Data"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvFineData"
+                    android:textColor="@color/dark"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif-smallcaps" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Гос ном: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    android:textColor="@color/dark"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif-smallcaps" />
+
+                <TextView
+                    android:text="Gos Number"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvGnFine"
+                    android:textColor="@color/dark"
+                    android:textSize="14dp"
+                    android:fontFamily="sans-serif-smallcaps" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:text="Перейти"
+                    android:layout_width="wrap_content"
+                    android:layout_height="20dp"
+                    android:id="@+id/btnShowTmpCar"
+                    android:textSize="12sp"
+                    android:layout_marginRight="30dp"
+                    android:textColor="@color/colorHint"
+                    android:gravity="left"
+                    android:background="@color/white"
+                    android:textAllCaps="false"
+                    android:fontFamily="sans-serif-smallcaps" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

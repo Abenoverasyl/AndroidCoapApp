@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Статья: "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps" />
+
+        <TextView
+            android:text="art"
+            android:textSize="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvCoapTextArt"
+            android:textColor="@android:color/black"
+            android:textStyle="normal|bold"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif-smallcaps" />
+    </LinearLayout>
+
+    <TextView
+        android:text="Нарушение:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-smallcaps" />
+    <TextView
+        android:text="narush"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCoapTextNarush"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-smallcaps" />
+    <TextView
+        android:text="Санкция:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-smallcaps" />
+    <TextView
+        android:text="fine1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCoapTextFine1"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-smallcaps" />
+    <TextView
+        android:text="Штраф в тенге:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="normal|bold"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-smallcaps" />
+    <TextView
+        android:text="fine2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvCoapTextFine2"
+        android:textColor="@color/dark"
+        android:fontFamily="sans-serif-smallcaps" />
+</LinearLayout>

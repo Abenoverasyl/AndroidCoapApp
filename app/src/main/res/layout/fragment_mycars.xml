@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiterbl"
+    tools:context="com.example.erasyl.coap.fragments.FragmentMyCars">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:padding="5dp"
+        android:gravity="center"
+        android:id="@+id/check"
+        android:background="@color/whiterbl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.example.erasyl.coap.NonScrollListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvMyCars">
+        </com.example.erasyl.coap.NonScrollListView>
+
+        <Button
+            android:text="Добавить машину"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnAddNewCar"
+            android:textColor="@color/white"
+            android:textAllCaps="false"
+            android:textSize="18sp"
+            android:background="@color/btnColor" />
+        <TextView
+            android:background="@color/whiterbl"
+            android:layout_width="match_parent"
+            android:layout_height="30dp" />
+    </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

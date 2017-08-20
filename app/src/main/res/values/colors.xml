@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4a5fd5</color>
+    <color name="colorPrimaryDark">#303f9f</color>
+    <color name="colorAccent">#568cf9</color>
+    <color name="colorBackground">#ff8800</color>
+    <color name="white">#ffffff</color>
+    <color name="dark">#000002</color>
+    <color name="whiterbl">#eaeae8</color>
+    <color name="colorViewMore">#c69456</color>
+    <color name="yellow">#f6f6d2</color>
+    <color name="colorShare">#b530de</color>
+    <color name="colorDelete">#ef9c8f</color>
+    <color name="colorShow">#6dc3f5</color>
+    <color name="appBarColor">#1b5699</color>
+    <color name="btnColor">#5889c1</color>
+    <color name="colorHint">#7d292523</color>
+</resources>

@@ -1,0 +1,62 @@
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/whiterbl"
+    android:id="@+id/content_fragment"
+    android:layout_height="match_parent"
+    tools:context="com.example.erasyl.coap.fragments.FragmentMainNews">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@color/whiterbl"
+        android:layout_marginTop="1dp"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="50dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:text="Добавить машины"
+            android:background="@color/white"
+            android:textColor="@color/btnColor"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnCheckFine"
+            android:textAllCaps="false"
+            android:textStyle="normal|bold"
+            android:textSize="18sp" />
+
+        <com.example.erasyl.coap.NonScrollListView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/lvFines">
+        </com.example.erasyl.coap.NonScrollListView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="4dip"
+            android:background="@color/whiterbl" />
+
+        <com.example.erasyl.coap.NonScrollListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/lvNews">
+        </com.example.erasyl.coap.NonScrollListView>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:background="@color/whiterbl" />
+
+    </LinearLayout>
+</ScrollView>
+</android.support.v4.widget.SwipeRefreshLayout>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coap_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.erasyl.coap.CoapTextActivity">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="5dp"
+        android:paddingRight="30dp"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/appBarColor"
+        android:id="@+id/header">
+
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="35dp"
+            android:id="@+id/btnBackFines"
+            android:background="@drawable/arrowbackwhite" />
+
+        <TextView
+            android:text="Редактировать машину"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:id="@+id/textView9"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/header"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:padding="15dp"
+            android:gravity="center"
+            android:id="@+id/check"
+
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ivImageCar"
+                android:layout_width="70dp"
+                android:layout_height="70dp" />
+
+
+            <Button
+                android:text="Добавить фото"
+                android:textColor="@color/btnColor"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:textSize="10dp"
+                android:background="@color/white"
+                android:id="@+id/btnAddPhoto"
+                android:textAllCaps="false" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/tvUserName"
+                android:hint="Введите имя"
+                android:textColorHint="@color/colorHint"
+                android:textSize="18sp"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:ems="10"
+                android:id="@+id/tvUserTelNum"
+                android:hint="Введите телефон"
+                android:textColorHint="@color/colorHint"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:ems="10"
+                android:id="@+id/tvUserEmail"
+                android:textColorHint="@color/colorHint"
+                android:hint="Введите E-mail" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/tvUserGosNum"
+                android:hint="Введите Гос.номер"
+                android:textColorHint="@color/colorHint"
+                android:textAllCaps="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/tvUserTexPas"
+                android:hint="Введите Тех.паспорт"
+                android:textColorHint="@color/colorHint"
+                android:textAllCaps="true" />
+
+            <Button
+                android:text="Сохранить"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/white"
+                android:background="@color/btnColor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnSave"
+                android:textSize="18sp"
+                android:textAllCaps="false" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
